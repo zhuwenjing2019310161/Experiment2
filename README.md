@@ -7,7 +7,7 @@
 ## 二、实验内容  
 设计完成关于PC、内存等模拟的程序。
 ## 三、实验过程：  
-1、用类描述计算机中CPU的速度、品牌和硬盘的容量、价格。定义4个类，名字分别是PC、CPU、HardDisk和Test，其中Test是主类。并且使用修饰符private的用法。   
+1、用类描述计算机中CPU的速度、品牌和硬盘的容量、价格。定义4个类，名字分别是PC、CPU、HardDisk和Test,其中Test是主类。并且使用修饰符private的用法。   
 2、(1)CPU类：getSpeed()返回speed的值，getBrand()返回brand的值；setSpeed(int speed)方法将参数的值赋值给speed，同样的setBrand(String m)方法将参数m的值赋给brand。另外，使用if else循环进行品牌类别的判断。  
    (2)HardDisk类：getAmount()返回amount的值，getPrice()返回price的值；setAmount(int amount)方法将参数的值赋值给amount，同样的setPrice(float price)方法将参数的值赋给price。  
    (3)PC类：setCPU(CPU c)将参数c的值赋值给cpu，setHardDisk(HardDisk h)方法将参数h的值赋值给HD；  
