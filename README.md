@@ -20,25 +20,25 @@
 (5) pc调用setHardDisk(HardDisk h)方法，调用时实参是disk。  
 (6) pc调用show()方法。
 ## 四、核心方法  
-1、方法一:构造方法的一种为空。
+1、方法一：构造方法的一种为空。
 ```
 CPU(){}...  
 HardDisk(){}...  
 PC(){}...
 ```     
-2、方法二:构造一个getSpeed()/getBrand()等返回值。
+2、方法二：构造一个getSpeed()/getBrand()等返回值。
 ```  
 int getSpeed(){
 	return speed;}
 String getBrand(){
 	return brand;}...  
 ```  
-3、方法三:setSpeed(int m)方法将参数m的值赋值给speed。这里直接将m设置为speed。
+3、方法三：setSpeed(int m)方法将参数m的值赋值给speed。这里直接将m设置为speed。
 ```
 void setSpeed(int speed){
 	this.speed=speed;}
 ```  
-4、方法四:判断CPU品牌的循环结构。  
+4、方法四：判断CPU品牌的循环结构。  
 ```  
 String setBrand(String m){
 this.brand = m;	
@@ -57,7 +57,7 @@ return brand;}
 实验结果截图  
 ![实验结果截图.png](https://i.loli.net/2020/10/07/XbDvah9GyI6uxos.png)
 ## 六、实验感想  
-通过本次实验我学会了定义类的构造方法，并且可以用类描述一些事物的特性，初步可以写出描述类的程序，但是关于构造方法使用的不是非常熟练。  
+通过本次实验我学会了定义类的构造方法，并且可以用类描述一些事物的特性，初步可以写出描述类的程序，但是关于构造方法使用的不是非常熟练，希望可以通过多次练习掌握好。 
 
 
   
